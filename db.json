@@ -9,7 +9,7 @@
       "choice-3": "public",
       "choice-4": "static",
       "answer": 1,
-      "failure-response": ""
+      "failure-response": "void keeps a method from returning a value"
     },
    {
      "id": 2,
@@ -20,7 +20,7 @@
       "choice-3": "Oracle",
       "choice-4": "Starbucks",
       "answer": 3,
-      "failure-response": ""
+      "failure-response": "Java is owned by Oracle"
    },
    {
      "id": 3,
@@ -31,7 +31,7 @@
       "choice-3": "Creates a variable",
       "choice-4": "Creates a new class",
       "answer": 2,
-      "failure-response": ""
+      "failure-response": "Does not return anything, prints the parameter to the console"
    },
    {
      "id": 4,
@@ -42,7 +42,7 @@
       "choice-3": "Integer",
       "choice-4": "Character",
       "answer": 1,
-      "failure-response": ""
+      "failure-response": "Any number with a decimal place is a double"
    },
    {
      "id": 5,
@@ -53,7 +53,7 @@
       "choice-3": "2018",
       "choice-4": "1996",
       "answer": 4,
-      "failure-response": ""
+      "failure-response": "Java was created in 1996 by James Gosling"
    },
    {
      "id": 6,
@@ -64,7 +64,7 @@
       "choice-3": "Halloween Tricks Make Leopards",
       "choice-4": "Hyperspace Text Math Language",
       "answer": 2,
-      "failure-response": ""
+      "failure-response": "HTML stands for Hypertext Markup Language"
    },
    {
      "id": 7,
@@ -75,7 +75,7 @@
       "choice-3": "Kill rodents",
       "choice-4": "Write emails",
       "answer": 1,
-      "failure-response": ""
+      "failure-response": "CSS styles websites, duh"
    },
    {
      "id": 8,
@@ -86,7 +86,7 @@
       "choice-3": "Department Of Models",
       "choice-4": "Digital Object Matrix",
       "answer": 2,
-      "failure-response": ""
+      "failure-response": "DOM stands for Document Object Model"
    },
    {
      "id": 9,
@@ -97,7 +97,7 @@
       "choice-3": "Scan for viruses",
       "choice-4": "Bake cookies",
       "answer": 1,
-      "failure-response": ""
+      "failure-response": "Javascript is used to manipulate the DOM and give websites functionality, it can also be used to do other things like create games"
    },
    {
      "id": 10,
@@ -108,7 +108,7 @@
       "choice-3": "Creates a null value variable",
       "choice-4": "Texts your crush",
       "answer": 1,
-      "failure-response": ""
+      "failure-response": "This creates a variable named 'a' with a value of 2"
    },
    {
      "id": 11,
@@ -119,7 +119,7 @@
       "choice-3": "Create an IOS app",
       "choice-4": "Keep you awake",
       "answer": 2,
-      "failure-response": ""
+      "failure-response": "Java can be used to create back-end for websites, along with many other things like client side programs"
    },
    {
      "id": 12,
@@ -130,7 +130,7 @@
       "choice-3": "Store values",
       "choice-4": "Create integers",
       "answer": 3,
-      "failure-response": ""
+      "failure-response": "Arrays store many types of values like integers, doubles, objects, etc."
    },
    {
      "id": 13,
@@ -141,7 +141,7 @@
       "choice-3": "A class",
       "choice-4": "A variable",
       "answer": 3,
-      "failure-response": ""
+      "failure-response": "An object's parent is a class"
    },
    {
      "id": 14,
@@ -152,7 +152,7 @@
       "choice-3": "Allows access to something from anywhere in the program",
       "choice-4": "Deletes your files",
       "answer": 3,
-      "failure-response": ""
+      "failure-response": "the public operator lets a variable, class, object, method, etc. be accessed from anywhere in the program"
    },
    {
      "id": 15,
@@ -163,7 +163,7 @@
       "choice-3": "A cat",
       "choice-4": "An integer",
       "answer": 4,
-      "failure-response": ""
+      "failure-response": "Integer obviously"
    },
    {
      "id": 16,
@@ -174,7 +174,7 @@
       "choice-3": "if b is less than a, set maxNum to b",
       "choice-4": "if a is less than b, set maxNum to b",
       "answer": 2,
-      "failure-response": ""
+      "failure-response": "The > operator is used to compare values and returns the greater value, if a is greater than b, set maxNum to a"
    },
    {
      "id": 17,
@@ -185,7 +185,7 @@
       "choice-3": "1492",
       "choice-4": "2005",
       "answer": 1,
-      "failure-response": ""
+      "failure-response": "HTML was created in 1989 by Tim Berners-Lee"
    },
    {
      "id": 18,
@@ -196,7 +196,7 @@
       "choice-3": "Sets the website title to 'My Website'",
       "choice-4": "Deletes the internet",
       "answer": 3,
-      "failure-response": ""
+      "failure-response": "<title> is used to set the title of a website which can be seen on the website's tab in the browser"
    },
    {
      "id": 19,
@@ -207,7 +207,7 @@
       "choice-3": "Creates a variable with the value of null",
       "choice-4": "Creates an integer",
       "answer": 3,
-      "failure-response": ""
+      "failure-response": "When you do not provide a value to a variable, its value is null"
    },
    {
      "id": 20,
@@ -218,7 +218,7 @@
       "choice-3": "Nothing, this is an error",
       "choice-4": "Gives the user a virus",
       "answer": 3,
-      "failure-response": ""
+      "failure-response": "<p> Hi </p> is the correct syntax"
    }
   ]
 }
