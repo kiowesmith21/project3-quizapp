@@ -3,7 +3,7 @@
   {
       "id": 1,
       "title": "Which keyword keeps the main method from returning any value to the caller?",
-      "image": "",
+      "image": "https://cdn.journaldev.com/wp-content/uploads/2016/08/public-static-void-main-string-args.png",
       "choice-1": "void",
       "choice-2": "restricted",
       "choice-3": "public",
