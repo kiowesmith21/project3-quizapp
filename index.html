@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <script src='script.js'></script>
+
+        <title>Programming Quiz</title>
+
+        <style>
+            body {
+            background-color: rgba(112, 112, 112, 0.5);
+            margin: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Programming Quiz</a></li>
+              </ul>
+        </div>
+        
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-6 mx-auto">
+                    <div id="app_widget" class="align-items-center">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--View-->
+        <script id="question_view" type="text/x-handlebars-template">
+            <div class="container">
+                <div class="card" style="width:500px; margin-top: 10%;">
+                    <img class="card-img-top" src="{{this.questions.0.image}}" alt="Card Image">
+                    <div class="card-body">
+                        <h4 class="card-title">{{this.questions.0.title}}</h4>
+                    <br/>
+                        <button class="btn btn-primary pull-left" data-user="1">{{this.questions.0.choice-1}}</button>
+                        <button class="btn btn-primary pull-left" data-user="2">{{this.questions.0.choice-2}}</button>
+                        <button class="btn btn-primary pull-left" data-user="3">{{this.questions.0.choice-3}}</button>
+                        <button class="btn btn-primary pull-left" data-user="4">{{this.questions.0.choice-4}}</button>
+
+                    </div>  
+                </div>            
+            </div>
+        </script>
+
+    </body>
+</html>
